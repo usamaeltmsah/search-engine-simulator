@@ -72,7 +72,7 @@ int main() {
     printf("\nSearch Query:\n %s\n\n", search_q);
     // We have 50 file, each have 30 lines
     for (int l = 1; l <= 50; ++l) {
-        char path[] = "../Aristo-Mini-Corpus/";
+        char path[] = "../../Aristo-Mini-Corpus/";
         char buff[255];
         concatPath(path, l);
         fp = fopen(path, "r");
