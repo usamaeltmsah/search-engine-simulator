@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/usama/E/FCI/FCIL4 T2/CS471 - Parallel Processing/2020/Assignments/Assignment 2/CS471-Parallel-A2-2020/serial c /main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+stdbool.h
+-
+
