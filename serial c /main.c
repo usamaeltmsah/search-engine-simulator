@@ -68,7 +68,7 @@ int main() {
     FILE *fp;
     struct existsWhere structexistsWhere[50][30];
     int c = 0;
-    char* search_q = "sunlight energy nutrients";
+    char* search_q = "sunlight energy nutrients"; // Search Query
     printf("\nSearch Query:\n %s\n\n", search_q);
     // We have 50 file, each have 30 lines
     for (int l = 1; l <= 50; ++l) {
